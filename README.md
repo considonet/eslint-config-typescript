@@ -4,7 +4,9 @@
 
 ## What is this?
 
-This preset was created as a part of [G-Build](https://www.npmjs.com/package/@considonet/g-build) evolution. Starting from version 4.0, there are no longer configuration files for Babel and these have to be provided manually (as they are project-specific). Because all our existing legacy projects have exactly the same config, this package makes the transition to G-Build 4 and Babel TypeScript transpilation easy. Also it provides a setup which was proved to work for us.
+This config was created to provide a common linting setup for ConsidoNet projects. This config works well with ES6 JavaScript, [TypeScript](https://github.com/typescript-eslint/typescript-eslint) and React (JSX, TSX) files.
+
+You can read more about transition from `tslint` to `eslint` [here](https://eslint.org/blog/2019/01/future-typescript-eslint).
 
 ## Install
 
