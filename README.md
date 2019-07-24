@@ -8,7 +8,7 @@ This config was created to provide a common linting setup for ConsidoNet project
 
 You can read more about transition from `tslint` to `eslint` [here](https://eslint.org/blog/2019/01/future-typescript-eslint).
 
-## Install
+## Installation
 
 Using npm:
 
@@ -29,3 +29,5 @@ In your .eslintrc file add the following line:
 ```
 extends: "@considonet/eslint-config-typescript"
 ```
+
+__Make sure to have tsconfig.json file in your project root directory (where package.json is).__ Otherwise this config won't work.
