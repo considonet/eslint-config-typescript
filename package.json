@@ -1,0 +1,28 @@
+{
+  "name": "@considonet/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "Default ESLint config for ConsidoNet projects using JS, TS and React",
+  "main": "lib/index.js",
+  "author": "Paweł Gabryelewicz",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "react",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/considonet/eslint-config-typescript"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
