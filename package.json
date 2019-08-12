@@ -1,6 +1,6 @@
 {
   "name": "@considonet/eslint-config-typescript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Default ESLint config for ConsidoNet projects using JS, TS and React",
   "main": "lib/index.js",
   "author": "Paweł Gabryelewicz",
@@ -17,7 +17,8 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.12.0",
     "@typescript-eslint/parser": "^1.12.0",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.7.0"
   },
   "peerDependencies": {
     "eslint": "^5.0.0"
