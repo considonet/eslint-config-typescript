@@ -1,6 +1,6 @@
 {
   "name": "@considonet/eslint-config-typescript",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Default ESLint config for ConsidoNet projects using JS, TS and React",
   "main": "lib/index.js",
   "author": "Paweł Gabryelewicz",
